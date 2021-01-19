@@ -1,2 +1,3 @@
-pdf: template.tex
-	pdflatex template.tex
+F?=template
+pdf: $(F).tex
+	pdflatex $(F).tex
